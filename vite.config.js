@@ -10,5 +10,6 @@ export default defineConfig({
     postcss: {
       plugins: [taliwindcss(), autoprefixer()],
     }
-  }
+  },
+  base:"/E-commerce",
 });

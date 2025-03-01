@@ -1,5 +1,6 @@
 {
-  "name": "frontend",
+  "name": "E-commerce",
+  "homepage": "https://Avik-Studio.github.oi/E-commerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,13 +9,16 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite"
+    "start": "vite",
+    "predeploy":"npm start",
+    "deploy":""
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "autoprefixer": "^10.4.20",
     "axios": "^1.7.9",
     "firebase": "^11.3.1",
+    "git": "^0.1.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hot-toast": "^2.5.1",
