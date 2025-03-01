@@ -27,7 +27,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" index element={<Home />} />
           <Route path="/Category" element={<Category />} />
           <Route path="/product/:categoryName" element={<Product />} />
           <Route path="/ProductFilter" element={<ProductFilter />} />
