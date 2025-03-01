@@ -1,20 +1,20 @@
 import Header from "./compoents/Header";
 import Footer from "./compoents/Footer";
-import Contact from "./Pages/contact";
+import Contact from "./Pages/Contact";
 import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Category from "./Pages/Category";
 import ProductFilter from "./Pages/ProductFilter";
 import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
-import ProductDetail from "./Pages/productDetail";
+import ProductDetail from "./Pages/ProductDetail";
 import Checkout from "./Pages/Checkout";
 import Profile from "./Pages/Profile";
 import Order from "./Pages/Order";
 import Address from "./Pages/Address";
 import PageNotfound from "./Pages/pageNotfound";
-import Signin from "./Pages/signIn";
-import Signup from "./Pages/signUp";
+import Signin from "./Pages/Signin";
+import Signup from "./Pages/Signup";
 //alert
 import "./Utils/alert";
 
