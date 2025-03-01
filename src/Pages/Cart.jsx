@@ -79,15 +79,15 @@ export default function Cart() {
           <div className="md:col-span-7 lg:col-span-6 p-4">
             <div className="p-5">
               <div className="flex justify-between mb-3">
-                <h2 className="text-2xl font-bold text-gray-950">Product Details</h2>
+                <h2 className="text-2xl font-bold text-gray-950 ">Product Details</h2>
                 <button
                   type="button"
                   className="font-medium p-1 rounded-xl bg-red-600 text-white hover:text-gray-700"
                 >
                   Remove All
                 </button>
+              <hr/>
               </div>
-              <hr />
               <div className="flow-root">
                 <ul role="list" className="-my-6 divide-y divide-gray-200">
                   {products.map((product) => (
@@ -144,7 +144,7 @@ export default function Cart() {
               <button
                 onClick={openModal}
                 type="button"
-                className="font-medium p-1 rounded-xl bg-gray-900 text-white hover:text-gray-600"
+                className="font-medium p-1 rounded bg-gray-900 text-white hover:text-gray-600"
               >
                 Add Offer
               </button>
