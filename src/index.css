@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+/* theme */
+html{
+    transition: all 0.4s ease;
+}
+
+body {
+    transition: all 0.4s ease;
+}
+
+/* .dark body{
+    background-color: dark-blue;
+    color: white;
+} */
+/* body{
+    background-color: white;
+    color: black;
+} */
